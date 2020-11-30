@@ -1,0 +1,20 @@
+{
+  "name": "fe-cli",
+  "version": "1.0.0",
+  "description": "技术：Node.js 愿景：能够提供基于各种框架的项目搭建",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cathe-zhang/fe-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cathe-zhang/fe-cli/issues"
+  },
+  "homepage": "https://github.com/cathe-zhang/fe-cli#readme"
+}
