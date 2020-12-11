@@ -1,10 +1,14 @@
 {
   "name": "fe-cli",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "技术：Node.js 愿景：能够提供基于各种框架的项目搭建",
-  "main": "index.js",
+  "main": "./bin/index.js",
+  "bin": {
+    "fe-cli": "./bin/index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +20,16 @@
   "bugs": {
     "url": "https://github.com/cathe-zhang/fe-cli/issues"
   },
-  "homepage": "https://github.com/cathe-zhang/fe-cli#readme"
+  "homepage": "https://github.com/cathe-zhang/fe-cli#readme",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "download": "^8.0.0",
+    "fs-extra": "^9.0.1",
+    "handlebars": "^4.7.6",
+    "inquirer": "^7.3.3",
+    "log-symbols": "^4.0.0",
+    "ora": "^5.1.0",
+    "update-notifier": "^5.0.1"
+  },
 }
